@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  
+  height: 100vh;
+  background: linear-gradient(135deg, #8052ec, #d161ff);
+  
+}
+.status{
+  font-size: 100px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.game{
+  display: flex;
+}
+html {
+  font-size: 16px;
+}
+.wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.button-option {
+  margin: 10px;
+  background: #ffffff;
+  height: 22vmin;
+  width: 22vmin;
+  border: none;
+  border-radius: 8px;
+  font-size: 12vmin;
+  color: #d161ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  color: #090909;
+  margin: 10px;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+ 
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+
+.list{
+  list-style: none;
+}
+
